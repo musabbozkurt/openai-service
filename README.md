@@ -4,7 +4,7 @@
 
 * [Create new secret key and replace all YOUR_API_KEY_HERE in code with this new key](https://platform.openai.com/account/api-keys)
 * `cd openai-service`
-* `export JAVA_HOME=$(/usr/libexec/java_home -v 17)`
+* Java 17 should be used `export JAVA_HOME=$(/usr/libexec/java_home -v 17)`
 * `mvn spring-boot:run`
 * Swagger Url: http://localhost:8080/swagger-ui/index.html
 * [openai-test-requests.http](openai-test-requests.http)
